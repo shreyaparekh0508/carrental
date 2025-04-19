@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Car - Awesome Car Rentals</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Car Rental Logo</title>
+</head>
+<body>
+    <header>
+        <h1>Awesome Car Rentals</h1>
+        <nav>
+            <div class="logo">
+                <div class="car-icon"></div>
+                DriveEasy Rentals
+                    </div>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="cars.html">Car Listings</a></li>
+                <li><a href="booking.html">Book a Car</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Book Your Car</h2>
+        <form class="booking-form">
+            <label for="car-type">Select Car:</label>
+            <select id="car-type" name="car-type">
+                <option value="MARUTI SUZUKI">Suzuki Swift Dzire</option>
+                <option value="XUV 700">XUV 700</option>
+                <option value="innova">INNOVA</option>
+                <option value="CRETA">CRETA</option>
+                <option value="Honda Amaze">Honda Amaze</option>
+                <option value="KIA">KIA SONET</option>
+                <option value="NEXON">NEXON</option>
+                <option value="TOYOTA GLANZA">TOYOTA GLANZA</option>
+                <option value="Audi A7">Audi A7</option>
+                <option value="Mercedes BENZE C-CLASS">Mercedes BENZE C-CLASS</option>
+                <option value="BREZZA">BREZZA</option>
+                <option value="BMW X5">BMW X5</option>
+
+                               
+            </select>
+
+            <label for="pickup-date">Pickup Date:</label>
+            <input type="date" id="pickup-date" name="pickup-date" required>
+
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date" required>
+
+            <label for="pickup-time">Pickup Time:</label>
+            <input type="time" id="pickup-time" name="pickup-time" required>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <button type="submit" class="button">Submit Booking</button>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Awesome Car Rentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
